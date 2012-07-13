@@ -1,0 +1,32 @@
+#File templates
+*.php
+*.html
+*.txt
+*.ico
+*.sh
+*.sample
+.*
+!.gitignore
+
+#Files
+mage
+
+#Dirs
+var/
+skin/
+media/
+lib/
+errors/
+downloader/
+js/
+
+#app dir
+app/code/core/
+app/code/community/
+app/design/
+app/locale
+app/etc/*
+!app/etc/modules
+app/etc/modules/*
+!app/etc/modules/Eltrino*
+
